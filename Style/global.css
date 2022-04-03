@@ -62,15 +62,22 @@ img {
 /*Utilidades*/
 
 .contenido-t {
-  height: 80rem;
+  margin: 1px 5rem;
+  padding-top: 1rem;
+  margin-bottom: -2rem;
+  height: 58rem;
 }
 @media (min-width: 480px) {
   .contenido-t {
-    margin: 1px 5rem;
-    height: 56rem;
+    height: 98rem;
   }
 }
 
+@media (min-width: 768px) {
+  .contenido-t {
+    height: 62rem;
+  }
+}
 .sombra{
   -webkit-box-shadow: 0px 5px 15px 0px rgba(125,125,125,0.67);
   -moz-box-shadow: 0px 5px 15px 0px rgba(125,125,125,0.67);

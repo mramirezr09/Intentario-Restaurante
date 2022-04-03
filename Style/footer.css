@@ -1,12 +1,16 @@
-:root {
+/* :root {
   --morado: #433751;
   --azulFuerte: #2F576E;
   --azulFondo: #748B9C;
   --crema: #F0E3E3;
   --blanco: #ffffff;
   --negro: #000000;
-}
+} */
 footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  clear:both;
   text-align: center;
   background-color: var(--azulFondo);
   color: var(--crema);

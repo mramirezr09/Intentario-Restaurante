@@ -1,0 +1,19 @@
+:root {
+  --morado: #433751;
+  --azulFuerte: #2F576E;
+  --azulFondo: #748B9C;
+  --crema: #F0E3E3;
+  --blanco: #ffffff;
+  --negro: #000000;
+}
+footer {
+  text-align: center;
+  background-color: var(--azulFondo);
+  color: var(--crema);
+}
+footer a {
+  color: var(--crema);
+}
+footer p {
+  margin: 0;
+}
